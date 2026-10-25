@@ -1,0 +1,7 @@
+com.havanduyet.quanlynhansu.app-pngs-0 C:\Users\Duyet\Downloads\QuanLyNhanSu_HaVanDuyet_Java\QuanLyNhanSu_HaVanDuyet_Java\app\build\generated\res\pngs\debug
+com.havanduyet.quanlynhansu.app-resValues-1 C:\Users\Duyet\Downloads\QuanLyNhanSu_HaVanDuyet_Java\QuanLyNhanSu_HaVanDuyet_Java\app\build\generated\res\resValues\debug
+com.havanduyet.quanlynhansu.app-packageDebugResources-2 C:\Users\Duyet\Downloads\QuanLyNhanSu_HaVanDuyet_Java\QuanLyNhanSu_HaVanDuyet_Java\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.havanduyet.quanlynhansu.app-packageDebugResources-3 C:\Users\Duyet\Downloads\QuanLyNhanSu_HaVanDuyet_Java\QuanLyNhanSu_HaVanDuyet_Java\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.havanduyet.quanlynhansu.app-debug-4 C:\Users\Duyet\Downloads\QuanLyNhanSu_HaVanDuyet_Java\QuanLyNhanSu_HaVanDuyet_Java\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.havanduyet.quanlynhansu.app-debug-5 C:\Users\Duyet\Downloads\QuanLyNhanSu_HaVanDuyet_Java\QuanLyNhanSu_HaVanDuyet_Java\app\src\debug\res
+com.havanduyet.quanlynhansu.app-main-6 C:\Users\Duyet\Downloads\QuanLyNhanSu_HaVanDuyet_Java\QuanLyNhanSu_HaVanDuyet_Java\app\src\main\res

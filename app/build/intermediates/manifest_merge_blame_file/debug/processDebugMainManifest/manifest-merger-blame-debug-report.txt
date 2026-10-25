@@ -1,0 +1,59 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.havanduyet.quanlynhansu"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="28" />
+10
+11    <application
+11-->C:\Users\Duyet\Downloads\QuanLyNhanSu_HaVanDuyet_Java\QuanLyNhanSu_HaVanDuyet_Java\app\src\main\AndroidManifest.xml:1:70-690
+12        android:allowBackup="true"
+12-->C:\Users\Duyet\Downloads\QuanLyNhanSu_HaVanDuyet_Java\QuanLyNhanSu_HaVanDuyet_Java\app\src\main\AndroidManifest.xml:1:83-109
+13        android:debuggable="true"
+14        android:extractNativeLibs="false"
+15        android:label="Quản lý nhân sự"
+15-->C:\Users\Duyet\Downloads\QuanLyNhanSu_HaVanDuyet_Java\QuanLyNhanSu_HaVanDuyet_Java\app\src\main\AndroidManifest.xml:1:110-141
+16        android:supportsRtl="true"
+16-->C:\Users\Duyet\Downloads\QuanLyNhanSu_HaVanDuyet_Java\QuanLyNhanSu_HaVanDuyet_Java\app\src\main\AndroidManifest.xml:1:142-168
+17        android:testOnly="true"
+18        android:theme="@android:style/Theme.Material.Light.NoActionBar"
+18-->C:\Users\Duyet\Downloads\QuanLyNhanSu_HaVanDuyet_Java\QuanLyNhanSu_HaVanDuyet_Java\app\src\main\AndroidManifest.xml:1:169-232
+19        android:usesCleartextTraffic="false" >
+19-->C:\Users\Duyet\Downloads\QuanLyNhanSu_HaVanDuyet_Java\QuanLyNhanSu_HaVanDuyet_Java\app\src\main\AndroidManifest.xml:1:233-269
+20        <activity
+20-->C:\Users\Duyet\Downloads\QuanLyNhanSu_HaVanDuyet_Java\QuanLyNhanSu_HaVanDuyet_Java\app\src\main\AndroidManifest.xml:1:270-386
+21            android:name="com.havanduyet.quanlynhansu.EmployeeFormActivity"
+21-->C:\Users\Duyet\Downloads\QuanLyNhanSu_HaVanDuyet_Java\QuanLyNhanSu_HaVanDuyet_Java\app\src\main\AndroidManifest.xml:1:280-316
+22            android:exported="false"
+22-->C:\Users\Duyet\Downloads\QuanLyNhanSu_HaVanDuyet_Java\QuanLyNhanSu_HaVanDuyet_Java\app\src\main\AndroidManifest.xml:1:317-341
+23            android:windowSoftInputMode="adjustResize" />
+23-->C:\Users\Duyet\Downloads\QuanLyNhanSu_HaVanDuyet_Java\QuanLyNhanSu_HaVanDuyet_Java\app\src\main\AndroidManifest.xml:1:342-384
+24        <activity
+24-->C:\Users\Duyet\Downloads\QuanLyNhanSu_HaVanDuyet_Java\QuanLyNhanSu_HaVanDuyet_Java\app\src\main\AndroidManifest.xml:1:386-461
+25            android:name="com.havanduyet.quanlynhansu.EmployeeDetailActivity"
+25-->C:\Users\Duyet\Downloads\QuanLyNhanSu_HaVanDuyet_Java\QuanLyNhanSu_HaVanDuyet_Java\app\src\main\AndroidManifest.xml:1:396-434
+26            android:exported="false" />
+26-->C:\Users\Duyet\Downloads\QuanLyNhanSu_HaVanDuyet_Java\QuanLyNhanSu_HaVanDuyet_Java\app\src\main\AndroidManifest.xml:1:435-459
+27        <activity
+27-->C:\Users\Duyet\Downloads\QuanLyNhanSu_HaVanDuyet_Java\QuanLyNhanSu_HaVanDuyet_Java\app\src\main\AndroidManifest.xml:1:461-676
+28            android:name="com.havanduyet.quanlynhansu.MainActivity"
+28-->C:\Users\Duyet\Downloads\QuanLyNhanSu_HaVanDuyet_Java\QuanLyNhanSu_HaVanDuyet_Java\app\src\main\AndroidManifest.xml:1:471-499
+29            android:exported="true" >
+29-->C:\Users\Duyet\Downloads\QuanLyNhanSu_HaVanDuyet_Java\QuanLyNhanSu_HaVanDuyet_Java\app\src\main\AndroidManifest.xml:1:500-523
+30            <intent-filter>
+30-->C:\Users\Duyet\Downloads\QuanLyNhanSu_HaVanDuyet_Java\QuanLyNhanSu_HaVanDuyet_Java\app\src\main\AndroidManifest.xml:1:524-665
+31                <action android:name="android.intent.action.MAIN" />
+31-->C:\Users\Duyet\Downloads\QuanLyNhanSu_HaVanDuyet_Java\QuanLyNhanSu_HaVanDuyet_Java\app\src\main\AndroidManifest.xml:1:539-590
+31-->C:\Users\Duyet\Downloads\QuanLyNhanSu_HaVanDuyet_Java\QuanLyNhanSu_HaVanDuyet_Java\app\src\main\AndroidManifest.xml:1:547-588
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->C:\Users\Duyet\Downloads\QuanLyNhanSu_HaVanDuyet_Java\QuanLyNhanSu_HaVanDuyet_Java\app\src\main\AndroidManifest.xml:1:590-649
+33-->C:\Users\Duyet\Downloads\QuanLyNhanSu_HaVanDuyet_Java\QuanLyNhanSu_HaVanDuyet_Java\app\src\main\AndroidManifest.xml:1:600-647
+34            </intent-filter>
+35        </activity>
+36    </application>
+37
+38</manifest>

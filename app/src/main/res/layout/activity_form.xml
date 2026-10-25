@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/pale" android:layout_width="match_parent" android:layout_height="match_parent">
+ <LinearLayout android:padding="18dp" android:orientation="vertical" android:background="@color/navy" android:layout_width="match_parent" android:layout_height="wrap_content">
+  <TextView android:id="@+id/txtTitle" android:textColor="@color/white" android:textStyle="bold" android:textSize="22sp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+  <TextView android:text="K23DTCN532 – Hà Văn Duyệt" android:textColor="#C8DBFA" android:layout_marginTop="5dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+ </LinearLayout>
+ <ScrollView android:fillViewport="true" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"><LinearLayout android:padding="18dp" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+  <Button android:id="@+id/btnPhoto" android:text="CHỌN ẢNH NHÂN SỰ" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+  <ImageView android:id="@+id/previewPhoto" android:contentDescription="Xem trước ảnh" android:background="#E6ECF6" android:scaleType="centerCrop" android:layout_gravity="center" android:layout_margin="8dp" android:layout_width="100dp" android:layout_height="100dp"/>
+  <EditText android:id="@+id/edtCode" android:hint="Mã nhân sự *" android:singleLine="true" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+  <EditText android:id="@+id/edtName" android:hint="Họ và tên *" android:singleLine="true" android:inputType="textCapWords" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+  <EditText android:id="@+id/edtYear" android:hint="Năm sinh *" android:inputType="number" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+  <TextView android:text="Giới tính" android:textStyle="bold" android:layout_marginTop="10dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+  <RadioGroup android:id="@+id/radioGender" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content"><RadioButton android:id="@+id/radioMale" android:text="Nam" android:checked="true" android:layout_width="wrap_content" android:layout_height="wrap_content"/><RadioButton android:id="@+id/radioFemale" android:text="Nữ" android:layout_width="wrap_content" android:layout_height="wrap_content"/><RadioButton android:id="@+id/radioOther" android:text="Khác" android:layout_width="wrap_content" android:layout_height="wrap_content"/></RadioGroup>
+  <EditText android:id="@+id/edtHometown" android:hint="Quê quán *" android:singleLine="true" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+  <EditText android:id="@+id/edtEducation" android:hint="Trình độ * (Đại học, Cao đẳng...)" android:singleLine="true" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+  <EditText android:id="@+id/edtSalary" android:hint="Mức lương (VNĐ) *" android:inputType="numberDecimal" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+  <TextView android:text="Phòng ban *" android:textStyle="bold" android:layout_marginTop="12dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+  <Spinner android:id="@+id/spDepartment" android:layout_width="match_parent" android:layout_height="52dp"/>
+  <Button android:id="@+id/btnSave" android:background="@drawable/primary_bg" android:textColor="@color/white" android:text="LƯU NHÂN SỰ" android:layout_marginTop="18dp" android:layout_width="match_parent" android:layout_height="52dp"/>
+  <Button android:id="@+id/btnCancel" android:text="QUAY LẠI" android:layout_marginBottom="20dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+ </LinearLayout></ScrollView>
+</LinearLayout>

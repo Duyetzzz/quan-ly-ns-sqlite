@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.havanduyet.quanlynhansu.app-mergeDebugResources-2:/values/values.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Duyet\\Downloads\\QuanLyNhanSu_HaVanDuyet_Java\\QuanLyNhanSu_HaVanDuyet_Java\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "0,0,0,0,0,0,0,0",
+                        "startColumns": "45,113,181,146,11,79,250,215",
+                        "startOffsets": "45,113,181,146,11,79,250,215",
+                        "endColumns": "79,146,215,181,45,113,283,250",
+                        "endOffsets": "79,146,215,181,45,113,283,250"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,94,132,171,211,250,289,327",
+                        "endColumns": "38,37,38,39,38,38,37,39",
+                        "endOffsets": "89,127,166,206,245,284,322,362"
+                    }
+                }
+            ]
+        }
+    ]
+}
